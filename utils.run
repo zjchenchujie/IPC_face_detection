@@ -1,0 +1,10 @@
+# Some useful commands
+
+# remove temperate object files *.o generated during compiling
+find . -type f -name "*.o" | xargs rm -f
+
+# camera rtsp access
+rtsp://admin:admin12345@192.169.65.73:554/h264/ch1/main/av_stream
+
+# local file rtsp test
+rtsp://192.168.1.130:8554/test.264
